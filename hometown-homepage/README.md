@@ -1,4 +1,4 @@
-# Hometown Homepage
+# [Hometown Homepage](https://hometown-homepage-burley.netlify.app/)
 This project illustrates my hometown: Burley, ID.
 
 ### Elements, tags, and css properties
