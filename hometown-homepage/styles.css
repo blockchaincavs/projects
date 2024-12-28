@@ -1,0 +1,49 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+* {
+    margin: 0px;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+#title {
+    background-color: #1D3557;
+    color: white;
+    padding: 8px 16px;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+#header {
+    background-image: url("./images/welcome-sign.jpeg");
+    background-size: cover;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content-div {
+    background-color: #F1FAEE;
+}
+
+.activities-img {
+    border-radius: 50%;
+    height: 100px;
+}
