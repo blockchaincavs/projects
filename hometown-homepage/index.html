@@ -9,28 +9,53 @@
 
     <body>
         <!-- HERO SECTION -->
-        <div id="header">
-            <h1 id="title">Visit Burley</h1>
-            <h2>Enjoy a wide variety of activities year around in a small town!</h2>
+        <div id="header" role="img" aria-label="A view of the Burley courthouse.">
+
+            <h1 class="radius-util" id="title">Visit Burley</h1>
+            <h2 class="radius-util" id="welcome-msg">Enjoy a wide variety of activities year around in a small town!</h2>
+        
         </div>
 
         <!-- ACTIVITIES SECTION -->
-        <div id="content-div">
+        <div class="color-util" id="content-div">
+
             <h3>Top three activities to do in Burley</h3>
-            <img class="activities-img" src="./images/boathouse.jpeg" alt="View of the snake river from The Boathouse resaurant"/>
-            <img class="activities-img" src="./images/pomerelle.jpeg" alt="Snow covered mountainside. Illustrating a ski resort" />
-            <img class="activities-img" src="./images/sashone-falls.jpeg" alt="Sashone waterfall on the Snake River"/>
+            <div id="activities-div">
+
+                <div class="activities">
+                    <img class="activities-img" src="./images/boathouse.jpeg" alt="View of the snake river from The Boathouse resaurant"/>
+                    <p class="activities-header">Dine out at The Boathouse</p>
+                    <p class="activities-desc">Enjoy a nice meal while overlooking the Snake River.</p>
+                </div>
+
+                <div class="activities">
+                    <img class="activities-img" src="./images/pomerelle.jpeg" alt="Snow covered mountainside. Illustrating a ski resort" />
+                    <p class="activities-header">Ski at Pomerelle</p>
+                    <p class="activities-desc">Take to the slope in the winter months and enjoy some skiing.</p>
+                </div>
+
+                <div class="activities">
+                    <img class="activities-img" src="./images/sashone-falls.jpeg" alt="Sashone waterfall on the Snake River"/>
+                    <p class="activities-header">Tour Shashone Falls</p>
+                    <p class="activities-desc">Enjoy plenty of sights and activities on the water.</p>
+                </div>
+
+            </div>
         </div>
 
         <!-- GUIDE SECTION -->
-        <div>
-            <h3>Your guide</h3>
-            <p>
-                "I grew up in Burley and lived there for over 20 years. I can show you
-                all of its best parts and hidden secrets."
-            </p>
-            <h4>Skyler Gonzalez</h4>
-            <img src=""/>
+        <div class="color-util" id="guide-card">
+
+            <img src="./images/avatar.jpeg"/>
+
+            <div id="guide-content">
+                <h3>Your guide</h3>
+                <p id="guide-description">
+                    "I grew up in Burley and lived there for over 20 years. I can show you
+                    all of its best parts and hidden secrets."
+                </p>
+                <h4>Skyler Gonzalez</h4>
+            </div>
         </div>
     </body>
 </html>
