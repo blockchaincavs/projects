@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #F4F4F4;
+}
+
+#head-section {
+    background-color: #6943FF;
+    text-align: center;
+    color: white;
+
+    padding: 30px 0;
+}
+
+#btn-convert {
+    /* Center on page. Need a set width. button has a default width */
+    display: block;
+    margin: 0 auto;
+
+    background: white;
+    border: none;
+    border-radius: 4px;
+
+    padding: 10px;
+
+    font-size: 16px;
+    color: #3D3D3D;
+
+    width: 100px;
+}
+
+#btn-convert:active {
+    width: 95px;
+    height: 35px;
+}
+
+#text-input-units {
+    background: none;
+    border: 2px solid #B295FF;
+    border-radius: 6px;
+
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    width: 100px;
+    height: 70px;
+
+    text-align: center;
+
+    margin: 30px 0 20px 0;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+
+/* Conversions section */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: #3D3D3D;
+}
+
+.conversions {
+    background-color: white;
+    width: 500px;
+    height: 90px;
+    margin: 20px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.conversion-heading {
+    font-weight: bold;
+}
