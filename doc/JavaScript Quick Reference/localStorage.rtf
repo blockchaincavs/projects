@@ -1,0 +1,43 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww16140\viewh10220\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs36 \cf0 Storing data locally in users browser. And reading it back\
+\
+l
+\fs32 ocalStorage 
+\f1\b0 \'97 object to stores data locally in users browser as \
+			\'93key\'94, \'93value\'94 pairs which are strictly strings
+\f0\b \
+\
+localStorage.setItem(\'93key\'94, \'93value\'94) \
+localStorage.getItem(\'93key\'94)\
+localStorage.clear()\
+\
+JSON.stringify(variable) 
+\f1\b0 \'97 converts an entire variable to a string. Can use on arrays
+\f0\b \
+JSON.parse(variable) 
+\f1\b0 \'97 converts a JSON string back to original variable
+\f0\b \
+\
+To store an array of values in localStorage, you must use JSON.stringify\
+
+\f1\b0 \
+let myNums = [] //an array of undefined length\
+\
+for (let i = 0; i === 10; I++) \{\
+	//add numbers 0-9 to myNums\
+	myNums.push(i)\
+\}\
+\
+console.log(JSON.stringify(myNums)) // will output \'93[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]\'94\
+localStorage.setItem(\'93myNums\'94, JSON.stringify(myNums)) \
+console.log(JSON.parse(localStorage.getItem(\'93myNums\'94))) // will output original array from local storage
+\fs36 \
+\
+\
+}
