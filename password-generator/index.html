@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h2 id="first-el">Generate a</h2>
+            <h2 id="second-el">random password</h2>
+            <p id="text-el">Never use an insecure password again.</p>
+            <button onclick="generatePasswords()">Generate passwords</button>
+        </header>
+
+        <main>
+            <!--- seperate containers to use flexbox to create 2x4 grid (i dont know grid yet)-->
+            <section id="password-columns"> 
+                <section class="column">
+                    <!-- first password -->
+                    <div id="pass-one">---</div>
+                    <!-- second password -->
+                    <div id="pass-two">---</div>
+                </section>
+    
+                <section class="column">
+                    <!-- third password -->
+                    <div id="pass-three">---</div>
+    
+                    <!-- fourth password -->
+                    <div id="pass-four">---</div>
+                </section>
+            </section>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
