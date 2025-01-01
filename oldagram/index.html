@@ -19,40 +19,42 @@
 
         </header>
 
-        <main>
+        <main id="main-el">
             
-             <section class="section-user-post-1">
+             <section class="section-user-post">
                 
                 <!-- Posts section -->
-                <section id="section-1">
+                <section class="section-1">
 
-                    <img class="avatar-el" src="images/avatar-vangogh.jpg" alt="Vincent Vangogh profile images." />
-                    <p id="name-el">Vincent van Gogh 
-                        <span>Zudert, Netherlands</span> 
-                    </p>
-                    <img id="post-el" src="images/post-vangogh.jpg" alt="Oil painting self portrait of Vincent Vangogh." />
+                    <div class="user">
+                        <img class="avatar-el" src="images/avatar-vangogh.jpg" alt="Vincent Vangogh profile image." />
+                        <p class="name-el">
+                            <span class="bold-text block">Vincent van Gogh</span> Zudert, Netherlands
+                        </p>
+                    </div>
+
+                    <img class="post-el" src="images/post-vangogh.jpg" alt="Oil painting self portrait of Vincent Vangogh." />
     
                  </section>
     
     
                 <!-- Likes, Comments, and share section -->
-                <section id="section-2">
+                <section class="section-2">
                     
                     <div class="buttons">
 
-                        <button id="button-like"></button>
-                        <button id="button-comment"></button>
-                        <button id="button-share"></button>
+                        <button class="button-like" id="0" onclick="incrementLikes(id)"></button>
+                        <button class="button-comment"></button>
+                        <button class="button-share"></button>
 
                     </div>
 
-                    <p>21,492 likes</p>
-                    <p><span>vincey1853</span> just took a few mushrooms lol</p>
+                    <p class="bold-text" id="likes-0">21,492 likes</p>
+                    <p><span class="bold-text">vincey1853</span> just took a few mushrooms lol</p>
 
                 </section>
 
              </section>
-
 
         </main> 
 

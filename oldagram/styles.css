@@ -4,17 +4,14 @@
 
 body {
 
-    text-align: center;
-    
-    border: 2px solid red;
+    /* text-align: center; */
     background-color: #EDEDED;
 
     /* center content on page */
-    max-width: 400px;
+    max-width: 375px;
     margin: 0 auto;
     font-family: sans-serif;
 }
-
 
 header {
     
@@ -31,6 +28,21 @@ img {
     display: inline-block;
 }
 
+p {
+    font-size: 13px;
+    margin-top: 10px; 
+    margin-left: 10px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.block {
+    /* Seperaete onto new line by making it a block element */
+    display: block;
+}
+
 #logo-el {
     width: 150px;
     height: 60px;
@@ -43,7 +55,58 @@ img {
     margin-top: 12px;
 }
 
-#post-el {
+.post-el {
     width: 375px;
     height: 375px;
+}
+
+.section-user-post {
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    padding: 0 0 8px 8px;
+}
+
+.buttons {
+    padding: 10px 0 0 10px;
+}
+
+button {
+    width: 25px;
+    height: 25px;
+    border: none;
+    background: transparent;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 4px;
+    
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    width: 25px;
+    height: 23px;
+}
+
+.button-like {
+    background-image: url("images/icon-heart.png");
+}
+
+.button-comment {
+    background-image: url("images/icon-comment.png");
+}
+
+.button-share {
+    background-image: url("images/icon-dm.png");
+}
+
+.section-2 {
+    padding-bottom: 15px;
 }
