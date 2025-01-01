@@ -96,15 +96,15 @@ button:active {
 }
 
 .button-like {
-    background-image: url("images/icon-heart.png");
+    background-image: url("assets/images/icon-heart.png");
 }
 
 .button-comment {
-    background-image: url("images/icon-comment.png");
+    background-image: url("assets/images/icon-comment.png");
 }
 
 .button-share {
-    background-image: url("images/icon-dm.png");
+    background-image: url("assets/images/icon-dm.png");
 }
 
 .section-2 {
