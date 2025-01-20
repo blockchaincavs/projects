@@ -1,8 +1,12 @@
 import { menuArray } from "./data.js";
 
 const orderSection = document.getElementById("order-section");
+const modal = document.getElementById("modal")
+
 let itemsSelected = [];
 let totalPrice = 0;
+
+
 
 /**
  * Handle Event for all clicks. 
@@ -15,7 +19,7 @@ document.addEventListener("click", function(e) {
     if (buttonId) {
         addToOrder(Number(buttonId));
     } else if (e.target.id === "btn-complete") {
-        console.log(e.target.id)
+        completeOrder()
     }
     
 });
@@ -52,6 +56,10 @@ function addToOrder(buttonId) {
         <button id="btn-complete">Complete order</button>
     `;
 
+}
+
+function completeOrder() {
+    modal.style.display = 'flex';
 }
 
 function render() {

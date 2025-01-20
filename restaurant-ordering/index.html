@@ -76,26 +76,25 @@
 
             </section>
 
-            <section id="checkout-form">
-
-                <p>Enter card details</p>
-
-                <form>
-
-                    <label for="name">Name</label>
-                    <input type="text" id="name" placeholder="Enter your name" required/>
-
-                    <label for="card">Name</label>
-                    <input type="text" id="card" placeholder="Enter card number" required />
-
-                    <label for="cvv">CVV</label>
-                    <input type="text" id="cvv" placeholder="Enter CVV" required />
-
-                </form>
-
-            </section>
-
         </main>
+
+        <div id="modal">
+
+            <p class="modal-header">Enter card details</p>
+
+            <form class="modal-form flex">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required/>
+
+                <label for="card">Card Number:</label>
+                <input type="text" id="card" placeholder="Enter card number" required />
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" placeholder="Enter CVV" required />
+                <button type="submit" class="modal-btn" id="modal-btn">Pay</button>
+            </form>
+
+        </div>
 
         <script src="./index.js" type="module"></script>
     </body>
